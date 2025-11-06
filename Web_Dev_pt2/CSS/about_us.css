@@ -28,7 +28,13 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color:#ffcc00;
+  background-color:#ffcc00;
+}
+
+li {
+  font-size: 21px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .logo {
@@ -47,11 +53,12 @@ ul li a:hover {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #ffcc00;
     font-size: 40px;
+    padding-left: 10px;
 }
 
 h3 {
@@ -61,17 +68,18 @@ h3 {
 }
 
 h4 {
-  text-align: center;
-  font-size: 28px;
-  color: #fffa74;
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
   font-family:Arial, Helvetica, sans-serif;
-  text-shadow: 2px 2px #ffbf00;
+  padding-left: 10px
 }
 
 h5 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: lighter;
 }
 
@@ -101,7 +109,7 @@ body {
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 21px;
     color: white;
     padding: 20px;
     text-shadow: 2px 2px #ffbf00;
@@ -182,7 +190,7 @@ dl {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   margin: 20px 40px;
   width: 300px;
   cursor: pointer;
@@ -191,4 +199,3 @@ dl {
 .footer-content {
   color: black;
 }
-
