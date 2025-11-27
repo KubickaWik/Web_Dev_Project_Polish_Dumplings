@@ -53,7 +53,7 @@ li {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #ff1bca;
@@ -69,11 +69,15 @@ h3 {
 
 h4 {
   text-align: left;
-  font-size: 25px;
-  color: black;
+  font-size: 30px;
   text-decoration: underline;
   font-family:Arial, Helvetica, sans-serif;
-  padding-left: 10px
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  color: white;
+  text-shadow: 2px 2px #ff1bca;
 }
 
 h5 {
@@ -83,13 +87,23 @@ h5 {
   font-weight: lighter;
 }
 
+h6 {
+    font-size: 21px;
+    text-align: left;
+    padding-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
-.nina {
+.questions {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -100,19 +114,13 @@ body {
     margin: 20px 0;
 }
 
-.nina img {
-    height: 210px;
-    width: 160px;
-    border: 5px solid #ffffff;
-}
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 21px;
     color: white;
     padding: 20px;
-    text-shadow: 2px 2px #ff00a6;
+    text-shadow: 2px 2px #ffbf00;
 }
 
 .column {
@@ -162,15 +170,10 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 8px 0 rgba(81, 8, 97, 0.548);
+  box-shadow: 0 4px 8px 0 rgba(97, 95, 8, 0.548);
   padding: 16px;
   text-align: center;
-  background-color: #ff88c8;
-}
-
-.post {
-  container-type: 20;
-  container-name: prices;
+  background-color: #fffa74;
 }
 
 dl {
@@ -201,6 +204,18 @@ dl {
   cursor: pointer;
 }
 
+.button :hover {
+    background-color: white;
+}
+
 .footer-content {
   color: black;
 }
+
+a:hover {
+  background-color: white;
+}
+
+a:active {
+  background-color: #ffbf00;
+} 
